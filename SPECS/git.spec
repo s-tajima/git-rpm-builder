@@ -79,7 +79,7 @@
 %endif
 
 Name:           git
-Version:        2.9.0
+Version:        2.14.1
 Release:        1%{?dist}
 Summary:        Fast Version Control System
 License:        GPLv2
@@ -597,5 +597,8 @@ rm -rf %{buildroot}
 # No files for you!
 
 %changelog
+* Fri Aug 18 2017 Satoshi Tajima <tajima1989@gmail.com> - 2.14.1-1
+- Update to 2.14.1
+
 * Tue Jun 28 2016 Satoshi Tajima <tajima1989@gmail.com> - 2.9.0-1
 - initial build 2.9.0. refs wing-repo.net
