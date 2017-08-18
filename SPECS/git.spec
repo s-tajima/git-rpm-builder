@@ -103,7 +103,7 @@ BuildRequires:  expat-devel
 BuildRequires:  gettext
 BuildRequires:  pcre-devel
 BuildRequires:  openssl-devel
-BuildRequires:  zlib-devel >= 1.2
+BuildRequires:  zlib-devel
 %{!?_without_docs:BuildRequires: asciidoc > 6.0.3, xmlto}
 %if %{gnome_keyring}
 BuildRequires:  libgnome-keyring-devel
@@ -116,7 +116,7 @@ Requires:       perl(Error)
 %endif
 Requires:       perl-Git = %{version}-%{release}
 Requires:       rsync
-Requires:       zlib >= 1.2
+Requires:       zlib
 
 Provides:       git-core = %{version}-%{release}
 Obsoletes:      git-core <= %{git_core_version}
